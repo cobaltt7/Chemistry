@@ -1,0 +1,55 @@
+.text {
+	font-size: 30pt;
+}
+
+.text2 {
+	text-align: center;
+	font-size: 22pt;
+}
+
+text {
+	color: #00e;
+	text-decoration: underline;
+}
+
+p {
+	font-size: 30pt;
+}
+
+h1 {
+	font-size: 35pt;
+}
+
+.floating-br {
+	padding: 5px;
+	z-index: 100;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+}
+
+#nav {
+	height: 15%;
+	width: 95%;
+	border: 5px solid black;
+	text-align: center;
+	font-size: 40px;
+}
+
+.center {
+	margin: auto;
+}
+
+p.center.nav {
+	margin: 40px auto;
+}
+
+#redirect_,
+.rdi,
+rdi {
+	height: 40pt;
+}
+
+body {
+	font-display: swap;
+}
