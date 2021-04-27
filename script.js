@@ -1,9 +1,9 @@
-document.getElementById("nav").innerHTML             =
+document.getElementById("nav").innerHTML =
 	'<p class="center nav">The Periodic Table of Elements | <a href=" /index.html ">Table</a> / <a href=" / credits.html ">Credits</a> / <a href=" / chemistry.html ">More Chemistry</a></p>';
 document.getElementsByTagName("footer")[0].innerHTML =
 	'<p style = "font-size: 20pt;" > Coded with HTML, CSS, and JavaScript < /p>';
-var pic                                              = "g";
-document.cookie                                      = "test=yes";
+var pic = "g";
+document.cookie = "test=yes";
 document
 	.getElementsByClassName("rdi")[0]
 	.setAttribute("src", "images/redir_".concat(pic, ".jpg"));
@@ -11,7 +11,8 @@ document
 function alertjsOO() {
 	console.log(pic);
 	if (pic == "g") {
-		if (confirm(
+		if (
+			confirm(
 				"The redirect alert is ON. Click 'OK' to keep it on or click 'Cancel' to turn it off.",
 			)
 		) {
@@ -20,7 +21,8 @@ function alertjsOO() {
 		}
 	} else {
 		if (pic == "r") {
-			if (confirm(
+			if (
+				confirm(
 					"The redirect alert is OFF. Click 'OK' to turn it on or click 'Cancel' to keep it off.",
 				)
 			) {
@@ -33,7 +35,8 @@ function alertjsOO() {
 					"'.",
 				),
 			);
-			if (confirm(
+			if (
+				confirm(
 					"The redirect alert is ON. Click 'OK' to keep it on or click 'Cancel' to turn it off.",
 				)
 			) {
@@ -57,7 +60,8 @@ function alertjsOO() {
 }
 
 function alertjs(url) {
-	if (confirm(
+	if (
+		confirm(
 			"Redirecting to " +
 				url.split("/")[0].concat("//", url.split("/")[2]),
 		)
