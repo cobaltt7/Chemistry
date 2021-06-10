@@ -13,7 +13,7 @@ function alertjsOO() {
 	if (pic == "g") {
 		if (
 			confirm(
-				"The redirect alert is ON. Click 'OK' to keep it on or click 'Cancel' to turn it off.",
+				"The redirect alert is ON. Click 'OK' to keep it on or click 'Cancel' to turn it off."
 			)
 		) {
 		} else {
@@ -23,7 +23,7 @@ function alertjsOO() {
 		if (pic == "r") {
 			if (
 				confirm(
-					"The redirect alert is OFF. Click 'OK' to turn it on or click 'Cancel' to keep it off.",
+					"The redirect alert is OFF. Click 'OK' to turn it on or click 'Cancel' to keep it off."
 				)
 			) {
 				pic = "g";
@@ -32,12 +32,12 @@ function alertjsOO() {
 			console.log(
 				"ERROR: variable 'pic' is defined as neather 'g' nor 'r'. It is defined as '".concat(
 					pic,
-					"'.",
-				),
+					"'."
+				)
 			);
 			if (
 				confirm(
-					"The redirect alert is ON. Click 'OK' to keep it on or click 'Cancel' to turn it off.",
+					"The redirect alert is ON. Click 'OK' to keep it on or click 'Cancel' to turn it off."
 				)
 			) {
 				pic = "g";
@@ -63,7 +63,7 @@ function alertjs(url) {
 	if (
 		confirm(
 			"Redirecting to " +
-				url.split("/")[0].concat("//", url.split("/")[2]),
+				url.split("/")[0].concat("//", url.split("/")[2])
 		)
 	) {
 		open(url, "_blank");
@@ -73,10 +73,10 @@ function alertjs(url) {
 }
 if (navigator.cookieEnabled) {
 	alert(
-		"Welcome to my Periodic Table! Click on a element to go to Wikipedia. To turn off the redirect alert, press the green arrow. Cookies are enabled, so your preferance will be saved throughout the site and until you clear cookies. Thanks for visiting!",
+		"Welcome to my Periodic Table! Click on a element to go to Wikipedia. To turn off the redirect alert, press the green arrow. Cookies are enabled, so your preferance will be saved throughout the site and until you clear cookies. Thanks for visiting!"
 	);
 } else {
 	alert(
-		"Welcome to my Periodic Table! Click on a element to go to Wikipedia. To turn off the redirect alert, press the green arrow. Cookies are NOT enabled, so your preferance will NOT be saved. I reccomend enabling/unblocking them so you will not have to turn off the alert on every page. Thanks for visiting!",
+		"Welcome to my Periodic Table! Click on a element to go to Wikipedia. To turn off the redirect alert, press the green arrow. Cookies are NOT enabled, so your preferance will NOT be saved. I reccomend enabling/unblocking them so you will not have to turn off the alert on every page. Thanks for visiting!"
 	);
 }
