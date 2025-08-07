@@ -1,12 +1,10 @@
 document.getElementById("nav").innerHTML =
-	'<p class="center nav">The Periodic Table of Elements | <a href=" /index.html ">Table</a> / <a href=" / credits.html ">Credits</a> / <a href=" / chemistry.html ">More Chemistry</a></p>';
+	'<p class="center nav">The Periodic Table of Elements | <a href="/Chemistry/index.html">Table</a> / <a href="/Chemistry/credits.html">Credits</a> / <a href="/Chemistry/chemistry.html">More Chemistry</a></p>';
 document.getElementsByTagName("footer")[0].innerHTML =
-	'<p style = "font-size: 20pt;" > Coded with HTML, CSS, and JavaScript < /p>';
+	'<p style="font-size: 20pt;"> Coded with HTML, CSS, and JavaScript </p>';
 var pic = "g";
 document.cookie = "test=yes";
-document
-	.getElementsByClassName("rdi")[0]
-	.setAttribute("src", "images/redir_".concat(pic, ".jpg"));
+document.getElementsByClassName("rdi")[0].setAttribute("src", "images/redir_".concat(pic, ".jpg"));
 
 function alertjsOO() {
 	console.log(pic);
@@ -60,12 +58,7 @@ function alertjsOO() {
 }
 
 function alertjs(url) {
-	if (
-		confirm(
-			"Redirecting to " +
-				url.split("/")[0].concat("//", url.split("/")[2]),
-		)
-	) {
+	if (confirm("Redirecting to " + url.split("/")[0].concat("//", url.split("/")[2]))) {
 		open(url, "_blank");
 		this.style.color = "#551A8B";
 	} else {

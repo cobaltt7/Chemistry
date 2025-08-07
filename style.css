@@ -3,8 +3,8 @@
 }
 
 .text2 {
-	text-align: center;
 	font-size: 22pt;
+	text-align: center;
 }
 
 text {
@@ -21,19 +21,19 @@ h1 {
 }
 
 .floating-br {
-	padding: 5px;
-	z-index: 100;
 	position: fixed;
-	bottom: 0;
 	right: 0;
+	bottom: 0;
+	z-index: 100;
+	padding: 5px;
 }
 
 #nav {
-	height: 15%;
-	width: 95%;
 	border: 5px solid black;
-	text-align: center;
+	width: 95%;
+	height: 15%;
 	font-size: 40px;
+	text-align: center;
 }
 
 .center {
